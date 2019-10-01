@@ -1,13 +1,13 @@
-def isprime(n):
-    for i in range(2,n):
-        if n%i == 0 :
+def isprime(x):
+    for i in range(2,x):
+        if x%i == 0 :
             return 0
 
     return 1
 
-n = int(input("Enter a number : "))
-if isprime(n) == 1 :
-    print(f"{n} is Prime")
+x = int(input("Enter a number : "))
+if isprime(x) == 1 :
+    print(f"{x} is Prime")
 
 else :
-    print(f"{n} is not Prime")
+    print(f"{x} is not Prime")
