@@ -6,8 +6,9 @@ def isprime(x):
     return 1
 
 x = int(input("Enter a number : "))
-if isprime(x) == 1 :
+
+  if isprime(x) == 1 :
     print(f"{x} is Prime")
 
-else :
+  else :
     print(f"{x} is not Prime")
